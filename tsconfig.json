@@ -16,14 +16,8 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false,
-    "paths": {
-      "@app/neo-nest-ogm": [
-        "libs/neo-nest-ogm/src"
-      ],
-      "@app/neo-nest-ogm/*": [
-        "libs/neo-nest-ogm/src/*"
-      ]
-    }
-  }
+    "noFallthroughCasesInSwitch": false
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "test"]
 }

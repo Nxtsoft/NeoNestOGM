@@ -7,7 +7,7 @@ NeoNestOGM is a Neo4j Object Graph Mapper for NestJS. It is a wrapper around the
 You can customize the NeoNestOgm by passing configuration parameters when importing the module:
 
 ```typescript
-import { NeoNestOgmModule } from 'neo-nest-ogm';
+import { NeoNestOgmModule } from '@nxtsoft-org/neo-nest-ogm';
 
 @Module({
   imports: [

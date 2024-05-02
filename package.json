@@ -1,6 +1,6 @@
 {
   "name": "@nxtsoft-org/neo-nest-ogm",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Nestjs Neo4j OGM",
   "author": "Taylor Gagne",
   "private": false,
@@ -13,7 +13,7 @@
     "url": "https://github.com/Nxtsoft/NeoNestOGM/issues"
   },
   "scripts": {
-    "build": "rimraf packages && concurrently \"tsc -p .libs/nestlog/tsconfig.lib.json\" \"tsc -p .libs/requestify/tsconfig.lib.json\"",
+    "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\" \"libs/**/*.ts\"",
     "start": "nest start",
     "start:dev": "nest start --watch",
