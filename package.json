@@ -1,10 +1,12 @@
 {
   "name": "@nxtsoft-org/neo-nest-ogm",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Nestjs Neo4j OGM",
   "author": "Taylor Gagne",
   "private": false,
   "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Nxtsoft/NeoNestOGM"
