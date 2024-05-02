@@ -1,6 +1,6 @@
 {
   "name": "@nxtsoft-org/neo-nest-ogm",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Nestjs Neo4j OGM",
   "author": "Taylor Gagne",
   "private": false,
