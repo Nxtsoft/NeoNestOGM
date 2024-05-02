@@ -5,6 +5,13 @@
   "author": "Taylor Gagne",
   "private": false,
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nxtsoft/NeoNestOGM"
+  },
+  "bugs": {
+    "url": "https://github.com/Nxtsoft/NeoNestOGM/issues"
+  },
   "scripts": {
     "build": "rimraf packages && concurrently \"tsc -p .libs/nestlog/tsconfig.lib.json\" \"tsc -p .libs/requestify/tsconfig.lib.json\"",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\" \"libs/**/*.ts\"",
