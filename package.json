@@ -1,9 +1,9 @@
 {
-  "name": "neo-nest-ogm",
+  "name": "@nxtsoft-org/neo-nest-ogm",
   "version": "0.0.1",
-  "description": "",
+  "description": "Nestjs Neo4j OGM",
   "author": "Taylor Gagne",
-  "private": true,
+  "private": false,
   "license": "Apache-2.0",
   "scripts": {
     "build": "rimraf packages && concurrently \"tsc -p .libs/nestlog/tsconfig.lib.json\" \"tsc -p .libs/requestify/tsconfig.lib.json\"",
